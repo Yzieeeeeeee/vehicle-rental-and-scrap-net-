@@ -1,16 +1,57 @@
-# vigilant
+🚨 Vigilant – Incident Alert App
 
-A new Flutter project.
+Vigilant is a Flutter-based mobile application designed to report, manage, and monitor incidents efficiently. The app enables users to quickly raise alerts while allowing administrators to manage and respond to reported incidents in real time.
 
-## Getting Started
+📱 Features
+👤 User Module
 
-This project is a starting point for a Flutter application.
+Report incidents with details
 
-A few resources to get you started if this is your first Flutter project:
+Upload images as evidence
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+View reported incident status
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Receive notifications for updates
+
+Secure authentication (Firebase Auth)
+
+🛠️ Admin Module
+
+View all reported incidents
+
+Update incident status (Pending / In Progress / Resolved)
+
+Manage users
+
+Monitor real-time updates via Firestore
+
+🏗️ Tech Stack
+
+Flutter – Frontend framework
+
+Firebase Authentication – Secure login system
+
+Cloud Firestore – Real-time database
+
+Firebase Storage – Image upload support
+
+Material UI – Clean and responsive design
+
+📂 Project Structure
+lib/
+│
+├── screens/
+│   ├── user/
+│   ├── admin/
+│
+├── models/
+├── services/
+├── widgets/
+└── main.dart
+🔐 Authentication
+
+Email & Password login
+
+Role-based access (User / Admin)
+
+Secure session handling
